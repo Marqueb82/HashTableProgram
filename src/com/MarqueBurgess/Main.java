@@ -33,25 +33,25 @@ public class Main {
         }
         System.out.println();
 
-        // Deposit 1,000 into Zara's account
+        // Deposit 650 into Manny's account
         bal = balance.get("Manny");
         balance.put("Manny", bal + 650);
         System.out.println("Manny's new balance: " + balance.get("Manny"));
         System.out.println();
 
-        // Deposit 1,000 into Zara's account
+        // Withdraw 155 from Dana's account
         bal = balance.get("Dana");
         balance.put("Dana", bal - 155);
         System.out.println("Dana's new balance: " + balance.get("Dana"));
         System.out.println();
 
-        // Deposit 1,000 into Zara's account
+        // Deposit 1,025 into Zara's account
         bal = balance.get("Zara");
         balance.put("Zara", bal + 1025);
         System.out.println("Zara's new balance: " + balance.get("Zara"));
         System.out.println();
 
-        // Deposit 1,000 into Zara's account
+        // Withdraw 7,900 from Andre's account
         bal = balance.get("Andre");
         balance.put("Andre", bal - 7900);
         System.out.println("Andre's new balance: " + balance.get("Andre"));
